@@ -3,12 +3,13 @@ body {
   background-color: #d4e0ef;
 }
 
-.project-container{
+.project-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;}
+  height: 100vh;
+}
 
 .title {
   text-align: center;
@@ -32,12 +33,18 @@ body {
   font-weight: bold;
 }
 
-label{
+label {
   font-size: 1.4rem;
   margin-bottom: 10px;
 }
 
-input[type='color']{
+input[type='color'] {
   width: 60px;
   height: 30px;
+}
+
+@media (max-width:799px) {
+  .title {
+    font-size: 30px;
+  }
 }
